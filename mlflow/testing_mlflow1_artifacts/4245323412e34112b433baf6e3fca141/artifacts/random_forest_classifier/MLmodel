@@ -1,0 +1,34 @@
+artifact_path: random_forest_classifier
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.21.3
+model_size_bytes: 907074
+model_uuid: 3c5a9575eb1b4334a1f5275eeab4acd2
+prompts: null
+run_id: 4245323412e34112b433baf6e3fca141
+signature:
+  inputs: '[{"type": "double", "name": "feature_0", "required": true}, {"type": "double",
+    "name": "feature_1", "required": true}, {"type": "double", "name": "feature_2",
+    "required": true}, {"type": "double", "name": "feature_3", "required": true},
+    {"type": "double", "name": "feature_4", "required": true}, {"type": "double",
+    "name": "feature_5", "required": true}, {"type": "double", "name": "feature_6",
+    "required": true}, {"type": "double", "name": "feature_7", "required": true},
+    {"type": "double", "name": "feature_8", "required": true}, {"type": "double",
+    "name": "feature_9", "required": true}]'
+  outputs: '[{"type": "long", "name": "prediction", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-04-08 19:45:50.900036'

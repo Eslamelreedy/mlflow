@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/mahmo/Desktop/Round%202/Data%20Science/9-%20Machine%20Learning%20with%20Python/Session%208%20-%20Deployment/mlflow/mlflow/mlruns/0/85a2c84f64f74dd4aab09a925bbb87c2/artifacts
+end_time: 1744140707073
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85a2c84f64f74dd4aab09a925bbb87c2
+run_name: mlflow_runs
+run_uuid: 85a2c84f64f74dd4aab09a925bbb87c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744140707026
+status: 3
+tags: []
+user_id: ReedyJR
